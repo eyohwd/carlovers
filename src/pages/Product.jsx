@@ -82,7 +82,7 @@ const Product = () => {
     const getCar = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:8000/api/cars/find/" + id
+          `${process.env.REACT_APP_BASEURL}cars/find/` + id
         );
         setCar(res.data);
       } catch (error) {}

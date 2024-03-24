@@ -41,7 +41,7 @@ const Price = styled.span`
 const Image = styled.img`
   height: 70%;
   width: 80%;
-  ${mobile({height: "90%", width:"100%"})}
+  ${mobile({height: "60%", width:"100%"})}
 `;
 
 const InfoContainer = styled.div`

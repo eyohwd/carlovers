@@ -10,11 +10,12 @@ const Container = styled.div`
   display: flex;
   padding: 40px;
   height: 80vh;
-  ${mobile({flexDirection: "column", padding:"10px", height:"70vh"})}
+  ${mobile({flexDirection: "column", padding:"10px", height:"70vh", gap:"30px"})}
 `;
 const ImageContainer = styled.div`
   display: flex;
   flex-direction: column;
+  gap:10px;
   flex: 2;
   height: 100%;
   ${mobile({height: "80%"})}

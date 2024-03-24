@@ -10,13 +10,14 @@ const Container = styled.div`
   display: flex;
   padding: 40px;
   height: 80vh;
-  ${mobile({flexDirection: "column", padding:"10px", height:"100vh"})}
+  ${mobile({flexDirection: "column", padding:"10px", height:"70vh"})}
 `;
 const ImageContainer = styled.div`
   display: flex;
   flex-direction: column;
   flex: 2;
   height: 100%;
+  ${mobile({height: "80%"})}
 `;
 
 const Item = styled.div`
@@ -41,7 +42,7 @@ const Price = styled.span`
 const Image = styled.img`
   height: 70%;
   width: 80%;
-  ${mobile({height: "60%", width:"100%"})}
+  ${mobile({height: "90%", width:"100%"})}
 `;
 
 const InfoContainer = styled.div`
